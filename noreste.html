@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noreste</title>
 </head>
+  
 <body>
+
     <header>
-        <h1>Noreste de México</h1>
+        <h1 style="color: brown; text-align: center; background-color: blanchedalmond;">UNIVERSIDADES EN EL NORESTE DE MÉXICO</h1>
+        <center>
+            <img src="multimedia/region-noreste-mexico.png" alt="Zona noreste de México" style="width: 200px; height: auto;">
+        </center>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -19,12 +25,108 @@
             </ul>
         </nav>
     </header>
-    <h1 style="color: brown; text-align: center; background-color:blanchedalmond ;">NORESTE DE MÉXICO</h1>
-    <P>Esta página tiene el objetivo de mostrar algunas de las universidades de nuestro país.</P>
-    <p>México es un país con una larga oferta educativa. Desde instituciones públicas con una larga tradición, hasta universidades privadas que destacan por 
-    su innovación y enfoques modernos, el sistema universitario mexicano ofrece una amplia gama de opciones para estudiantes de todas las disciplinas.</p>
-    <p>La Universidad Nacional Autónoma de México (UNAM), el Instituto Politécnico Nacional (IPN), la Universidad Autónoma Metropolitana (UAM), y la Universidad Autónoma de Nuevo
-    León (UANL) son algunos ejemplos de universidades referentes en el ámbito académico y científico no sólo a nivel nacional sino internacional.</p>
-    <img src="https://images.pexels.com/photos/14506186/pexels-photo-14506186.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Universidad Nacional Autónoma de México" width="400px" height="400px">
+
+    <main>
+        <article>
+            <header>
+                <h2>Universidad Autónoma de Nuevo León (UANL)</h2>
+            </header>
+            <img src="multimedia/UANL.png" alt="Edificio de la UANL" width="300px">
+            <p>La UANL es una de las instituciones de educación superior más grandes y prestigiosas de México, ubicada en Monterrey, Nuevo León. Ofrece una amplia gama de programas de licenciatura y posgrado en diversas áreas del conocimiento.</p>
+        </article>
+
+        <article>
+            <header>
+                <h2>Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)</h2>
+            </header>
+            <img src="multimedia/ITESM.png" alt="Edificio del ITESM" width="300px">
+            <p>El ITESM, conocido como el Tecnológico de Monterrey, es una de las universidades privadas más importantes de México y América Latina. Ofrece programas educativos de alta calidad y cuenta con múltiples campus en el país.</p>
+        </article>
+
+        <article>
+            <header>
+                <h2>Universidad Autónoma de Coahuila (UAdeC)</h2>
+            </header>
+            <img src="multimedia/UAdeC.png" alt="Edificio de la UAdeC" width="300px">
+            <p>La UAdeC es una institución educativa pública ubicada en el estado de Coahuila. Es reconocida por su compromiso con la educación de calidad y la investigación, ofreciendo una variedad de programas académicos en sus diferentes campus.</p>
+        </article>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Universidad</th>
+                    <th>Contacto</th>
+                    <th>Sitio Web</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>UANL</td>
+                    <td>contacto@uanl.mx</td>
+                    <td><a href="https://www.uanl.mx" target="_blank">www.uanl.mx</a></td>
+                </tr>
+                <tr>
+                    <td>ITESM</td>
+                    <td>info@itesm.mx</td>
+                    <td><a href="https://www.tec.mx" target="_blank">www.tec.mx</a></td>
+                </tr>
+                <tr>
+                    <td>UAdeC</td>
+                    <td>contacto@uadec.mx</td>
+                    <td><a href="https://www.uadec.mx" target="_blank">www.uadec.mx</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+
+        <form action="">
+            <fieldset>
+                <legend>Forma de contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" name="email" id="email"><br><br>
+
+                <label for="colorfav">Color favorito:</label>
+                <input type="color" name="colorfav" id="colorfav"> <br><br>
+
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad">
+
+                <label for="edad2">Edad 2:</label>
+                <input type="range" name="edad2" id="edad2"> <br><br>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha" id="fecha"> <br><br>
+
+                <label for="archivo">Archivo:</label>
+                <input type="file" name="archivo" id="archivo"> <br><br>
+
+                <label for="universidad">Universidad de Interés:</label>
+                <select name="universidad" id="universidad">
+                    <option value="uanl">UANL</option>
+                    <option value="itesm">ITESM</option>
+                    <option value="uadec">UAdeC</option>
+                </select><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea name="mensaje" id="mensaje" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    
+    <div>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+    
+    <footer>
+        <address>
+            <p>Desarrollado por Isai253</p>
+            <p>Derechos reservados &copy;</p>
+        </address>
+    </footer>
+
 </body>
 </html>

@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centro</title>
 </head>
+
 <body>
+
     <header>
-        <h1>Centro de México</h1>
+        <h1 style="color: brown; text-align: center; background-color: blanchedalmond;">UNIVERSIDADES EN EL CENTRO DE MÉXICO</h1>
+        <center>
+            <img src="multimedia/region-centro-mexico.png" alt="Zona centro de México" style="width: 200px; height: auto;">
+        </center>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -19,7 +25,98 @@
             </ul>
         </nav>
     </header>
-    <h1 style="color: brown; text-align: center; background-color:blanchedalmond ;">CENTRO DE MÉXICO</h1>
-    <P>Esta página tiene el objetivo de mostrar algunas de las universidades de nuestro país.</P>
-</body>
-</html>
+
+    <main>
+        <article>
+            <header>
+                <h2>Universidad Nacional Autónoma de México (UNAM)</h2>
+            </header>
+            <img src="multimedia/UNAM.png" alt="Edificio de la UNAM" width="300px">
+            <p>La UNAM es la universidad más grande y prestigiosa de México, ubicada en Ciudad de México. Fundada en 1910, ofrece una amplia variedad de programas académicos y es conocida por su excelencia en investigación y educación.</p>
+        </article>
+
+        <article>
+            <header>
+                <h2>Instituto Politécnico Nacional (IPN)</h2>
+            </header>
+            <img src="multimedia/IPN.png" alt="Edificio del IPN" width="300px">
+            <p>El IPN es una institución pública ubicada en Ciudad de México, fundada en 1936. Es reconocido por su enfoque en las ciencias y la tecnología, y ofrece una amplia gama de programas educativos en ingeniería, ciencias aplicadas y áreas relacionadas.</p>
+        </article>
+
+        <article>
+            <header>
+                <h2>Universidad Autónoma del Estado de México (UAEMex)</h2>
+            </header>
+            <img src="multimedia/UAEMex.png" alt="Edificio de la UAEMex" width="300px">
+            <p>La UAEMex es una universidad pública ubicada en Toluca, Estado de México. Fundada en 1956, ofrece una amplia gama de programas académicos y se destaca por su compromiso con la educación y el desarrollo regional.</p>
+        </article>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Universidad</th>
+                    <th>Contacto</th>
+                    <th>Sitio Web</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>UNAM</td>
+                    <td>info@unam.mx</td>
+                    <td><a href="https://www.unam.mx" target="_blank">www.unam.mx</a></td>
+                </tr>
+                <tr>
+                    <td>IPN</td>
+                    <td>contacto@ipn.mx</td>
+                    <td><a href="https://www.ipn.mx" target="_blank">www.ipn.mx</a></td>
+                </tr>
+                <tr>
+                    <td>UAEMex</td>
+                    <td>informes@uaemex.mx</td>
+                    <td><a href="https://www.uaemex.mx" target="_blank">www.uaemex.mx</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+
+        <form action="">
+            <fieldset>
+                <legend>Forma de contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" name="email" id="email"><br><br>
+
+                <label for="colorfav">Color favorito:</label>
+                <input type="color" name="colorfav" id="colorfav"> <br><br>
+
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad">
+
+                <label for="edad2">Edad 2:</label>
+                <input type="range" name="edad2" id="edad2"> <br><br>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha" id="fecha"> <br><br>
+
+                <label for="archivo">Archivo:</label>
+                <input type="file" name="archivo" id="archivo"> <br><br>
+
+                <label for="universidad">Universidad de Interés:</label>
+                <select name="universidad" id="universidad">
+                    <option value="unam">UNAM</option>
+                    <option value="ipn">IPN</option>
+                    <option value="uaemex">UAEMex</option>
+                </select><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea name="mensaje" id="mensaje" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    
+    <div>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>

@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sureste</title>
 </head>
+
 <body>
+
     <header>
-        <h1>Sureste de México</h1>
+        <h1 style="color: brown; text-align: center; background-color: blanchedalmond;">UNIVERSIDADES EN EL SURESTE DE MÉXICO</h1>
+        <center>
+            <img src="multimedia/region-sureste-mexico.png" alt="Zona sureste de México" style="width: 200px; height: auto;">
+        </center>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -19,7 +25,108 @@
             </ul>
         </nav>
     </header>
-    <h1 style="color: brown; text-align: center; background-color:blanchedalmond ;">SURESTE DE MÉXICO</h1>
-    <P>Esta página tiene el objetivo de mostrar algunas de las universidades de nuestro país.</P>
+
+    <main>
+        <article>
+            <header>
+                <h2>Universidad Autónoma de Yucatán (UADY)</h2>
+            </header>
+            <img src="multimedia/UADY.png" alt="Edificio de la UADY" width="300px">
+            <p>La UADY es una universidad pública ubicada en Mérida, Yucatán. Fundada en 1922, ofrece una amplia variedad de programas académicos en áreas como ciencias sociales, ciencias exactas e ingeniería, y es conocida por su compromiso con la educación superior en el sureste mexicano.</p>
+        </article>
+
+        <article>
+            <header>
+                <h2>Universidad de Quintana Roo (UQROO)</h2>
+            </header>
+            <img src="multimedia/UQROO.png" alt="Edificio de la UQROO" width="300px">
+            <p>La UQROO es una institución pública ubicada en Chetumal, Quintana Roo. Fundada en 1991, ofrece una variedad de programas académicos y se destaca por su enfoque en el desarrollo regional y la sostenibilidad ambiental.</p>
+        </article>
+
+        <article>
+            <header>
+                <h2>Universidad Veracruzana (UV)</h2>
+            </header>
+            <img src="multimedia/UV.png" alt="Edificio de la UV" width="300px">
+            <p>La UV es una universidad pública ubicada en Xalapa, Veracruz. Fundada en 1944, ofrece una amplia gama de programas académicos en diferentes disciplinas y es reconocida por su fuerte enfoque en la investigación y el desarrollo cultural.</p>
+        </article>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Universidad</th>
+                    <th>Contacto</th>
+                    <th>Sitio Web</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>UADY</td>
+                    <td>info@uady.mx</td>
+                    <td><a href="https://www.uady.mx" target="_blank">www.uady.mx</a></td>
+                </tr>
+                <tr>
+                    <td>UQROO</td>
+                    <td>contacto@uqroo.mx</td>
+                    <td><a href="https://www.uqroo.mx" target="_blank">www.uqroo.mx</a></td>
+                </tr>
+                <tr>
+                    <td>UV</td>
+                    <td>informes@uv.mx</td>
+                    <td><a href="https://www.uv.mx" target="_blank">www.uv.mx</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+
+        <form action="">
+            <fieldset>
+                <legend>Forma de contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" name="email" id="email"><br><br>
+
+                <label for="colorfav">Color favorito:</label>
+                <input type="color" name="colorfav" id="colorfav"> <br><br>
+
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad">
+
+                <label for="edad2">Edad 2:</label>
+                <input type="range" name="edad2" id="edad2"> <br><br>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha" id="fecha"> <br><br>
+
+                <label for="archivo">Archivo:</label>
+                <input type="file" name="archivo" id="archivo"> <br><br>
+
+                <label for="universidad">Universidad de Interés:</label>
+                <select name="universidad" id="universidad">
+                    <option value="uady">UADY</option>
+                    <option value="uqroo">UQROO</option>
+                    <option value="uv">UV</option>
+                </select><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea name="mensaje" id="mensaje" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    
+    <div>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+    
+    <footer>
+        <address>
+            <p>Desarrollado por Isai253</p>
+            <p>Derechos reservados &copy;</p>
+        </address>
+    </footer>
+
 </body>
 </html>
