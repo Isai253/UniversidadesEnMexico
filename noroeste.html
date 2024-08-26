@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noroeste</title>
+</head>
+  
+<body>
+
+    <header>
+        <h1 style="color: brown; text-align: center; background-color:blanchedalmond ;">UNIVERSIDADES EN EL NOROESTE DE MÉXICO</h1>
+        <center>
+            <img src="multimedia/mapa_region_noroeste.png" alt="Zona noroeste de méxico" style="width: 200px; height: auto;">
+        </center>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio </a></li>
+                <li><a href="noroeste.html">Noroeste de México</a></li>
+                <li><a href="noreste.html">Noreste de México</a></li>
+                <li><a href="occidente.html">Occidente de México</a></li>
+                <li><a href="centro.html">Centro de México</a></li>
+                <li><a href="sureste.html">Sureste de México</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>Universidad Autónoma de Baja California (UABC)</h2>
+            </header>
+            <img src="UABC.png" alt="Edificio de la UABC" width="300px">
+            <p>La UABC es una de las principales instituciones de educación superior en el noroeste de México. Ofrece una amplia variedad de programas de licenciatura y posgrado, y cuenta con campus en diversas ciudades del estado de Baja California.</p>
+        </article>
+
+        <article>
+            <header>
+                <h2>Universidad de Sonora (UNISON)</h2>
+            </header>
+            <p>La UNISON es una institución educativa pública ubicada en Hermosillo, Sonora. Fundada en 1942, ofrece una amplia gama de programas académicos y es conocida por su fuerte enfoque en la investigación científica.</p>
+        </article>
+
+        <article>
+            <header>
+                <h2>Instituto Tecnológico de Tijuana (ITT)</h2>
+            </header>
+            <p>El ITT forma parte del sistema de Tecnológicos de México y es una institución líder en la enseñanza de la ingeniería y tecnología en el noroeste del país. Ofrece programas de licenciatura y posgrado, enfocados en el desarrollo tecnológico e industrial.</p>
+        </article>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Universidad</th>
+                    <th>Contacto</th>
+                    <th>Sitio Web</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>UABC</td>
+                    <td>info@uabc.mx</td>
+                    <td><a href="https://www.uabc.mx" target="_blank">www.uabc.mx</a></td>
+                </tr>
+                <tr>
+                    <td>UNISON</td>
+                    <td>contacto@unison.mx</td>
+                    <td><a href="http://www.uson.mx" target="_blank">www.uson.mx</a></td>
+                </tr>
+                <tr>
+                    <td>ITT</td>
+                    <td>info@ittijuana.mx</td>
+                    <td><a href="http://www.tijuana.tecnm.mx" target="_blank">www.tijuana.tecnm.mx</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+
+        <form action="">
+            <fieldset>
+                <legend>Forma de contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" name="email" id="email"><br><br>
+
+                <label for="colorfav">Color favorito</label>
+                <input type="color" name="colorfav" id="colorfav"> <br><br>
+
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad">
+
+                <label for="edad2">Edad 2</label>
+                <input type="range" name="edad2" id="edad2"> <br><br>
+
+                <label for="fecha">Fecha</label>
+                <input type="date" name="fecha" id="fecha"> <br><br>
+
+                <label for="archivo">Archivo</label>
+                <input type="file" name="archivo" id="archivo"> <br><br>
+
+                <label for="universidad">Universidad de Interés:</label>
+                <select name="universidad" id="universidad">
+                    <option value="uabc">UABC</option>
+                    <option value="unison">UNISON</option>
+                    <option value="itt">ITT</option>
+                </select><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea name="mensaje" id="mensaje" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    
+    <div>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+    
+    <footer>
+        <adress>
+            <p>Desarrollado por Isai253</p>
+            <p>Derechos reservados &copy;</p>
+        </adress>
+    </footer>
+
+</body>
+</html>

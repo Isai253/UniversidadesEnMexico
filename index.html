@@ -1,17 +1,150 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universidades-de-Mexico</title>
+    <title>Universidades-En-Mexico</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+  
 <body>
-    <h1 style="color: brown; text-align: center; background-color:blanchedalmond ;">UNIVERSIDADES DE MÉXICO</h1>
-    <P>Esta página tiene el objetivo de mostrar algunas de las universidades de nuestro país.</P>
-    <p>México es un país con una larga oferta educativa. Desde instituciones públicas con una larga tradición, hasta universidades privadas que destacan por 
-    su innovación y enfoques modernos, el sistema universitario mexicano ofrece una amplia gama de opciones para estudiantes de todas las disciplinas.</p>
-    <p>La Universidad Nacional Autónoma de México (UNAM), el Instituto Politécnico Nacional (IPN), la Universidad Autónoma Metropolitana (UAM), y la Universidad Autónoma de Nuevo
-    León (UANL) son algunos ejemplos de universidades referentes en el ámbito académico y científico no sólo a nivel nacional sino internacional.</p>
-    <img src="https://images.pexels.com/photos/14506186/pexels-photo-14506186.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Universidad Nacional Autónoma de México" width="400px" height="400px">
+
+    <header>
+        <h1 style="color: brown; text-align: center; background-color:blanchedalmond ;">UNIVERSIDADES DE MÉXICO</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="noroeste.html">Noroeste de México</a></li>
+                <li><a href="noreste.html">Noreste de México</a></li>
+                <li><a href="occidente.html">Occidente de México</a></li>
+                <li><a href="centro.html">Centro de México</a></li>
+                <li><a href="sureste.html">Sureste de México</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>      
+        <aside>
+            <h2>Páginas relacionadas</h2>
+            <ul>
+                <li>
+                    <a href="https://sic.cultura.gob.mx/lista.php?table=universidad&disciplina&estado_id" target="_blank">
+                    Universidades por estado
+                    </a>
+                </li>
+                <li>
+                    <a href="https://embamex.sre.gob.mx/finlandia/index.php/embajada/acerca-de-mexico" target="_blank">
+                    Acerca de México
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.gob.mx/sep" target="_blank">
+                    Secretaría de Educación Pública (SEP)
+                    </a>
+                </li>
+                <li>
+                    <a href="https://educacionsuperior.sep.gob.mx/publicas_federales.html" target="_blank">
+                    Universidades Públicas de México
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.anuies.mx/" target="_blank">
+                    Asociación Nacional de Universidades e Instituciones de Educación Superior (ANUIES)
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        
+        <P>Esta página tiene el objetivo de mostrar algunas de las universidades de nuestro país.</P>
+        <p>México es un país con una larga oferta educativa. Desde instituciones públicas con una larga tradición, hasta universidades privadas que destacan por 
+        su innovación y enfoques modernos, el sistema universitario mexicano ofrece una amplia gama de opciones para estudiantes de todas las disciplinas.</p>
+        <p>La Universidad Nacional Autónoma de México (UNAM), el Instituto Politécnico Nacional (IPN), la Universidad Autónoma Metropolitana (UAM), y la Universidad Autónoma de Nuevo
+        León (UANL) son algunos ejemplos de universidades referentes en el ámbito académico y científico no sólo a nivel nacional sino internacional.</p>
+        <img src="https://images.pexels.com/photos/14506186/pexels-photo-14506186.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Universidad Nacional Autónoma de México" width="400px" height="400px">
+        <img src="img/captura.jpg" alt="Captura de pantalla">Para poner imagenes guardadas en la carpeta del proyecto.</img>
+        
+        <embed src="Link del embed" type="application/pdf">Para embeds, hay que poner el tipo de archivo, por ejemplo pdf.</embed>
+        
+        <video controls src="Link del video">Para videos, se puede copiar y pegar en la carpeta del proyecto, puede ser de pexels u otro sitio.</video>
+        
+        <audio controls src="Link del audio">Para audios, es como videos.</audio>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RE8LK7V6KVc?si=mpjNGlvaVDUtVV0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <br>
+        <a href="https://www.youtube.com/">Este es un link externo</a><br>
+        <a href="21-agosto-2024.html">Este es un link a un documento de nuestro proyecto</a><br>
+        <p>Se debe poner un link en ambas páginas para regresar a esta página.</p>
+        <a href="../index.html">Con este href en este link se sale de afuera de la ruta de la dirección. Se llama ruta relativa</a><br>
+        <a href="#aside">Link para ir a una sección del documento, se debe poner un id en el lugar a donde se quiere ir.</a><br>
+        <a hrrf="https://www.youtube.com/" target="_blank">Ir a otra dirección por aparte para que quede abierto esta dirección.</a><br>
+        <a href="tel:+11111111">Llamanos &phone</a><br>
+        <a href="mailto:jacksparrow@gmail.com">Escribenos</a><br>
+        
+        <p>Texto, <time datetime="2024/08/21T09:24">a 21 agosto a las 9:24</time>, ola soy <b>un</b> <i>texto</i> sobre los <strong>utiles</strong> escolares cotidianos de toda la vida, y <abbrtitle="Nuevo León">NL</abbr> es mi estado.<br> Espero te haya servido. <mark>El <span style="font-size:30px; background-cplor:red">mejor</span> libro de python</mark> es <cite>Piensa en Python.</cite><br>Y finalmente el div <div>es una división genérica en línea.</div><br>H<sub>2</sub>O y r<sup>2</sup>.</p>
+        
+        <small>Para texto de privacidad o legal o así.</small>
+        
+        <article>
+            <header>
+                <h2>Historia de los útiles escolares</h2>
+            </header>
+            
+            <figure>
+                <img width="200px" src="linkdeimagen.com" alt="descripción de la imagen">
+                <figcapture>Figura 1. Animales salvajes</figcapture>
+            </figure>
+            
+            <ol>
+                <li>libretas</li>
+                <li>borradores</li>
+                <li>tijeras</li>
+                <li>lapices</li>
+            </ol>
+            <ul>
+                <li>Primer grado</li>
+                <li>Segundo grado</li>
+            </ul>
+            <dl>
+                <dt>Tijeras punta roma</dt>
+                <dd>Son tijeras que no son peligrosas para los niños.</dd>
+                <dt>Borrador de migajon</dt>
+                <dd>Este borrador es un clásico.</dd>
+            </dl>
+            <div>
+                soy un div
+            </div>
+            <blockquote cite="link.com.mx">
+                "Esto es un texto citado"
+            </blockquote>
+            <section>
+                <h3>Los utiles en la edad..</h3>
+                <p>texto</p>
+            </section>
+            <section>
+                <h3>Los utiles hoy</h3>
+                <p>texto</p>
+            </section>
+            <section>
+                <h3>Los utiles mas pops</h3>
+                <p>texto</p>
+            </section>
+            <footer>
+                <p>Fin del artículo</p>
+                <hr>
+            </footer>
+        </article>
+    </main>
+    
+    <footer>
+        <adress>
+            <p>Desarrollado por Isai253</p>
+            <p>Derechos reservados &copy;</p>
+        </adress>
+    </footer>
+
+
+    
 </body>
 </html>
